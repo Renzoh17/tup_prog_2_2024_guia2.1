@@ -46,14 +46,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Empleado.cs" />
+    <Compile Include="Empresa.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormIngresarFecha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIngresarFecha.Designer.cs">
+      <DependentUpon>FormIngresarFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrarEmpleado.Designer.cs">
+      <DependentUpon>FormRegistrarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Liquidacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIngresarFecha.resx">
+      <DependentUpon>FormIngresarFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrarEmpleado.resx">
+      <DependentUpon>FormRegistrarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
